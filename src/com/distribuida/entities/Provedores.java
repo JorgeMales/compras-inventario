@@ -1,11 +1,30 @@
 package com.distribuida.entities;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import org.springframework.stereotype.Component;
+
+@Component
+@Entity
+@Table(name="provedores")
 public class Provedores {
-	
+	// Atributos 
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name="id_provedores")
 	private int idProvedores;
+	@Column(name="Nombre")
 	private String nombre;
+	@Column(name="Direccion")
 	private String direccion;
+	@Column(name="Telefono")
 	private String telefono;
+	@Column(name="Email")
 	private String email;
 	
 	
