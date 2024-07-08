@@ -20,9 +20,9 @@ public class Provedores {
 	private int idProvedores;
 	@Column(name="Nombre")
 	private String nombre;
-	@Column(name="Direccion")
+	@Column(name="Dirección")
 	private String direccion;
-	@Column(name="Telefono")
+	@Column(name="Teléfono")
 	private String telefono;
 	@Column(name="Email")
 	private String email;
@@ -32,7 +32,6 @@ public class Provedores {
 
 
 	public Provedores(int idProvedores, String nombre, String direccion, String telefono, String email) {
-		super();
 		this.idProvedores = idProvedores;
 		this.nombre = nombre;
 		this.direccion = direccion;
