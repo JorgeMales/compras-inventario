@@ -21,7 +21,7 @@ public class PrincipalProvedores {
 		provedoresDAO.add(provedores);
 		
 		//up
-		Provedores provedores2 = new Provedores(10,"Juan","av. por ahi....","097623456","jtaipe@correo.com");
+		Provedores provedores2 = new Provedores(9,"Juan2","av. por ahi....2","0976234562","jtaipe@correo.com2");
 		//provedoresDAO.up(provedores2);
 		
 		//del
